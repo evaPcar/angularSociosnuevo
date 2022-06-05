@@ -1,0 +1,60 @@
+<div class="continente">
+    <h1 mat-dialog-title class="titulosocio">SOCIO </h1>
+        <div mat-dialog-content [align]="'center'">
+
+        <form [formGroup]="sociosForm" class="form">
+            <mat-form-field appearance="fill" class="nombre">
+                <mat-label>nombre</mat-label>
+                <input matInput formControlName="nombre">
+              </mat-form-field>
+
+              <mat-form-field appearance="fill" class="apellido">
+                <mat-label>Apellido</mat-label>
+                <input matInput formControlName="apellido">
+              </mat-form-field>
+
+              <mat-form-field appearance="fill" class="id">
+                <mat-label>Numero de Socio</mat-label>
+                <input type="number" matInput formControlName="id" (click)="sololectura()">
+              </mat-form-field>
+              
+              <mat-form-field appearance="fill" class="dni">
+                <mat-label>DNI</mat-label>
+                <input matInput formControlName="dni">
+              </mat-form-field>    
+              
+              <mat-form-field appearance="fill" class="telefono">
+                <mat-label>Telefono</mat-label>
+                <input matInput formControlName="telefono" maxlength="9">
+              </mat-form-field>  
+
+              <mat-form-field appearance="fill" class="sexo">
+                <mat-label>Sexo</mat-label>
+                <mat-select formControlName="sexo">
+                  <mat-option value="Femenino">Femenino</mat-option>
+                  <mat-option value="Masculino">Masculino</mat-option>
+                  <mat-option value="Otro">Otro</mat-option>
+                </mat-select>
+              </mat-form-field>
+
+
+        <div mat-dialog-action [align]="'center'" class="botoncitos">
+
+            <button mat-fab class="cerrar" mat-dialog-close>
+                <mat-icon class="icon">chevron_left
+                </mat-icon>
+            </button>
+
+            <button [disabled]="sociosForm.invalid" mat-fab class="guardar" (click)="addsocios()" >
+              <mat-icon class="icon">{{actionbtn}}</mat-icon>
+            </button>
+         
+        
+          
+        </div>
+
+        </form>
+
+      </div>
+      
+</div>

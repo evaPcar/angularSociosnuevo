@@ -1,0 +1,27 @@
+.nombre, .apellido,.dni,.id,.telefono,.sexo{
+    width: 90%;
+    align-items: center;
+    color: rgb(255, 196, 0);;
+}
+ .guardar {
+margin-left: 20px;
+background-color: rgb(144, 0, 255);
+color:rgb(255, 196, 0);
+align-items: center;
+
+}
+
+
+.cerrar{
+    color:rgb(144, 0, 255);
+    align-items: center;
+}
+
+.titulosocio{
+    margin-left: 18px;
+    color: rgb(144, 0, 255);
+}
+
+.botoncitos{
+    margin-bottom:20px;
+}

@@ -1,0 +1,86 @@
+{
+  "listaSocios": [
+    {
+      "nombre": "Lucia",
+      "apellido": "Ordoñez",
+      "dni": "40999342B",
+      "telefono": "679235508",
+      "sexo": "Femenino",
+      "id": 6312
+    },
+    {
+      "nombre": "Juan",
+      "apellido": "Garrido",
+      "dni": "40987234T",
+      "telefono": "689231905",
+      "sexo": "Otro",
+      "id": 6890
+    },
+    {
+      "nombre": "Miranda",
+      "apellido": "Peleona",
+      "dni": "40765456Y",
+      "telefono": "689234905",
+      "sexo": "Femenino",
+      "id": 1672
+    },
+    {
+      "nombre": "Juanito",
+      "apellido": "Baranda",
+      "dni": "40888343T",
+      "telefono": "657893428",
+      "sexo": "Masculino",
+      "id": 5678
+    },
+    {
+      "nombre": "Manuel",
+      "apellido": "las Heras",
+      "dni": "40348921R",
+      "telefono": "690341112",
+      "sexo": "Masculino",
+      "id": 8946
+    },
+    {
+      "nombre": "Maria",
+      "apellido": "Tospolobonoba",
+      "dni": "40872318R",
+      "telefono": "675890231",
+      "sexo": "Femenino",
+      "id": 1289
+    },
+    {
+      "nombre": "Luna",
+      "apellido": "Lunatica",
+      "dni": "40978241R",
+      "telefono": "679340156",
+      "sexo": "Otro",
+      "id": 3333
+    },
+    {
+      "nombre": "Jorge",
+      "apellido": "Tordecillas",
+      "dni": "48177341M",
+      "telefono": "642907789",
+      "sexo": "Masculino",
+      "id": 2318
+    },
+    {
+      "nombre": "Juanita",
+      "apellido": "Valderrama",
+      "dni": "40976329H",
+      "telefono": "689021343",
+      "sexo": "Femenino",
+      "id": 2346
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

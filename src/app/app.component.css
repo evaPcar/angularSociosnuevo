@@ -1,0 +1,36 @@
+.fondo{
+    background: rgb(245, 192, 255);
+    
+  }
+.boton{
+    margin-left:49%;
+    margin-top: 5%;
+    color:rgb(144, 0, 255);
+    width: 100px;
+    height: 100px;
+  
+  }
+
+.icon{
+    size:200%;
+  }
+  .paginator{
+    background-color:rgb(252, 225, 133);
+  height: 80%;
+  }
+  table {
+    width: 100%;
+    background-color: rgb(252, 225, 133);
+
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin:0 auto;
+    
+  }
